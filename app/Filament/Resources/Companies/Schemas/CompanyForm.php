@@ -36,7 +36,7 @@ class CompanyForm
                             ->required(),
                     ]),
                 Section::make('Company Logo')
-                    ->description('Upload your company logo. Accepted formats: PNG, JPG, JPEG. Max size: 2MB.')
+                    ->description('Upload your company logo. Accepted formats: PNG, JPG, JPEG..')
                     ->columns(1)
                     ->schema([
                         FileUpload::make('logo')
